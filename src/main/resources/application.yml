@@ -1,0 +1,11 @@
+server:
+  port: 8000
+eureka:
+  instance:
+    prefer-ip-address: true # whether display the ip
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka  # the URL for eureka server
+spring:
+  application:
+    name: microservice-eureka-user
